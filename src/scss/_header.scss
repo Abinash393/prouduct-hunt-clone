@@ -1,15 +1,22 @@
 header {
   top: 0;
   left: 0;
-  height: 54px;
+  height: 66px;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   line-height: 5px;
   width: 100%;
   background-color: #fff;
 }
 
 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+}
+
+.child-container {
   display: flex;
   align-items: center;
   align-content: center;
@@ -36,6 +43,7 @@ header {
   height: 24px;
   width: 300px;
   align-items: center;
+  border-radius: 4px;
 }
 
 a {
@@ -51,6 +59,8 @@ a:hover {
 .links-nav {
   display: flex;
   align-items: center;
+  text-align: center;
+  padding: 4px;
 }
 
 .top-links {
@@ -73,9 +83,9 @@ a:hover {
 }
 
 .acc-nav {
-  margin-left: 5%;
+  margin-left: 12%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-end;
 }
 
 .login-btn {

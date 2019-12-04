@@ -1,3 +1,9 @@
+main {
+  width: 100%;
+  height: auto;
+  background-color: #f3f3f3;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -28,10 +34,11 @@
 
 .left-section {
   width: 70%;
-  padding-top: 5%;
+  margin-top: 24px;
 }
 
 .right-section {
+  margin-top: 24px;
   width: 27%;
 }
 
@@ -40,7 +47,7 @@
   height: 132px;
   background-color: #fff;
   border-radius: 4px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .img-container-1,
@@ -50,6 +57,7 @@
 }
 
 .pro-img {
+  width: 38px;
   border-radius: 50%;
   margin: 5px;
 }
@@ -61,30 +69,32 @@
 
 .join-them {
   color: rgba(204, 77, 41, 1);
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 600;
   text-align: center;
 }
 
 .card2 {
-  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
   border-radius: 4px;
   background-color: #fff;
   font-size: 12px;
   font-weight: 600;
   width: 290px;
-  padding: 10px;
 }
 
 .the-future {
-  text-align: center;
+  text-align: left;
   cursor: pointer;
+  display: block;
+  margin-top: 0;
 }
 
 .card3 {
   width: 310px;
   height: 336px;
-  padding: 20px 0px;
   border-radius: 4px;
   background-color: #fff;
 }
@@ -106,7 +116,7 @@
 .nws-img-container {
   border: 1px solid #e8e8e8;
   margin: 10px;
-  padding-bottom: 10px;
+  padding: 15px 2px;
 }
 
 .nwl-txt {
@@ -188,12 +198,27 @@
 
 .main-cards {
   background-color: #fff;
-  height: auto;
-  border-radius: 4px;
+  height: 111px;
 }
 
-.upvote-sym {
-  display: block;
-  margin: 0 auto;
+.upv-s,
+.upv {
   text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.img {
+  height: 80px;
+  width: 80px;
+}
+
+.cat {
+  width: 85px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.the-future-parent {
+  margin: 14px 6px;
 }

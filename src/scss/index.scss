@@ -7,24 +7,18 @@
   font-family: Helvetica, sans-serif;
 }
 
-main {
-  background-color: #e8e8e8;
-  width: 100%;
-}
-
 .wrapper {
-  margin-right: auto; /* 1 */
-  margin-left: auto; /* 1 */
+  margin: 0 auto;
 
-  max-width: 960px; /* 2 */
+  max-width: 1000px; /* 2 */
 
   padding-right: 10px; /* 3 */
   padding-left: 10px; /* 3 */
 }
 
-.uni-box-shadow {
-  box-shadow: -1px 1px 4px rgba($color: #000000, $alpha: 0.5);
-}
+// .uni-box-shadow {
+//   box-shadow: -1px 1px 4px rgba($color: #000000, $alpha: 0.5);
+// }
 
 .main-text {
   color: 16px;
@@ -37,23 +31,20 @@ select:focus {
   outline: none;
 }
 
-.main-cards {
-  background-color: #fff;
-  height: auto;
-}
-
 .main-card {
   display: flex;
   justify-content: space-between;
   width: auto;
   background-color: #fff;
-  padding: 20px 12px;
+  height: 81px;
+  padding: 20px;
   border-bottom: 1px solid #e8e8e8;
   margin: 0 auto;
 }
 
 .main-card:hover {
   background-color: #f3f3f3;
+  box-shadow: -1px 1px 4px rgba($color: #000000, $alpha: 0.5);
 }
 
 .whole-container {
@@ -65,20 +56,18 @@ select:focus {
   color: #6f6f6f;
 }
 
-.card-text {
-}
-
 .comment-box {
-  width: 40px;
-  height: 13px;
+  width: 45px;
+  height: 24px;
   border: 1px solid #e8e8e8;
   align-items: center;
   display: flex;
-  padding: 8px;
+  padding: 0px 8px;
   border-radius: 3px;
   margin-left: 12px;
   margin-right: 12px;
   margin-top: 6px;
+  background-color: #fff;
 }
 
 .card-container {
@@ -88,11 +77,14 @@ select:focus {
 .num-commnets {
   color: #6f6f6f;
   font-weight: 8px;
+  margin-left: 8px;
+  font-size: 12px;
 }
 
 .tag-name {
   color: #6f6f6f;
   font-weight: 8px;
+  font-size: 10px;
 }
 
 .card-details {
@@ -101,11 +93,18 @@ select:focus {
 }
 
 .upvote-container {
-  height: 72px;
-  width: 56px;
-  border: 1px solid #666666;
+  display: flex;
+  height: 62px;
+  width: auto;
+  padding: 2px 15px;
+  border: 1px solid #e8e8e8;
   border-radius: 4px;
   align-items: center;
+  background-color: #fff;
+}
+
+.upvote-container:hover {
+  background-color: #f3f3f3;
 }
 
 .upvote-num {

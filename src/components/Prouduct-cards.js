@@ -3,9 +3,10 @@ import React from 'react'
 function Cards(props) {
   return (
     <>
-      <div className='main-card-1 main-card'>
+      <div className='main-card'>
         <div className='whole-container'>
-          <img src={props.img}></img>
+          {/* image */}
+          <img src={props.img} className='img'></img>
           <div className='card-container'>
             <a className='main-text card-text'>{props.title}</a>
             <br></br>
@@ -20,8 +21,10 @@ function Cards(props) {
           </div>
         </div>
         <div className='upvote-container '>
-          <p className='upvote-sym'>▲</p>
-          <p className='upvote-num'>{props.num_upvotes}</p>
+          <div>
+            <p className='upv-s'>▲</p>
+            <p className='upv'>{props.num_upvotes}</p>
+          </div>
         </div>
       </div>
     </>
