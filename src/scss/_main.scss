@@ -1,0 +1,199 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-text-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.top-nav-right {
+  display: flex;
+}
+
+.popular {
+  border-right: 1px solid #6f6f6f;
+  font-size: 11px;
+  padding-right: 5px;
+  color: black;
+}
+
+.newest {
+  font-size: 11px;
+  color: black;
+  margin-left: 5px;
+}
+
+.left-section {
+  width: 70%;
+  padding-top: 5%;
+}
+
+.right-section {
+  width: 27%;
+}
+
+.card1 {
+  width: 290px;
+  height: 132px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.img-container-1,
+.img-container-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pro-img {
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.gray-line {
+  border-bottom: 1px solid #e8e8e8;
+  margin: 10px;
+}
+
+.join-them {
+  color: rgba(204, 77, 41, 1);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card2 {
+  height: 40px;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  width: 290px;
+  padding: 10px;
+}
+
+.the-future {
+  text-align: center;
+  cursor: pointer;
+}
+
+.card3 {
+  width: 310px;
+  height: 336px;
+  padding: 20px 0px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.card4 {
+  width: 290px;
+  height: 110px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.news-img {
+  height: 110px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.nws-img-container {
+  border: 1px solid #e8e8e8;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.nwl-txt {
+  text-align: center;
+}
+.get-thebest {
+  margin: 10px 20px;
+}
+
+.subscribe-input {
+  width: 290px;
+  height: 34px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+
+.sub-btn-margin {
+  height: 1px;
+  width: 1px;
+  margin: 5px;
+}
+
+.subscribe-btn {
+  font-weight: 600;
+  font-size: 11px;
+  margin-right: 5px;
+  color: white;
+  width: 270px;
+  height: 14px;
+  border: 10px solid rgba(204, 77, 41, 1);
+  border-radius: 4px;
+  background-color: rgba(204, 77, 41, 1);
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  align-items: baseline;
+}
+
+.notion {
+  color: #6f6f6f;
+  margin: 0 auto;
+}
+
+.job-description {
+  font-size: 12px;
+}
+
+.jobs-con {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.view-all-jobs {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6f6f6f;
+  cursor: pointer;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.post-a-job {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(204, 77, 41, 1);
+  cursor: pointer;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.notion-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-cards {
+  background-color: #fff;
+  height: auto;
+  border-radius: 4px;
+}
+
+.upvote-sym {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
