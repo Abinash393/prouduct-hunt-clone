@@ -10,6 +10,7 @@ function Main(params) {
         <div className='hero'>
           <Left />
           <Right />
+          <div className='floating-chat'></div>
         </div>
       </div>
     </main>

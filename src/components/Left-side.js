@@ -71,6 +71,14 @@ function Left() {
               num_comments: 94,
               num_upvotes: '130',
               img: 'images/gif7.gif'
+            },
+            {
+              title: 'Simple Scraper',
+              description: 'Turn any website into an API in just a few seconds',
+              tag: 'Web App',
+              num_comments: 9,
+              num_upvotes: '106',
+              img: 'images/gif8.gif'
             }
           ].map(singleCard => (
             <Cards {...singleCard} />

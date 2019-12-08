@@ -33,13 +33,12 @@ main {
 }
 
 .left-section {
-  width: 70%;
+  width: 66%;
   margin-top: 24px;
 }
-
-.right-section {
+Get every feature Twitter offers. .right-section {
   margin-top: 24px;
-  width: 27%;
+  width: 29%;
 }
 
 .card1 {
@@ -77,32 +76,34 @@ main {
 .card2 {
   display: flex;
   justify-content: space-between;
-  height: 60px;
+  max-height: 60px;
   border-radius: 4px;
   background-color: #fff;
   font-size: 12px;
   font-weight: 600;
-  width: 290px;
+  width: 320px;
 }
 
 .the-future {
   text-align: left;
   cursor: pointer;
-  display: block;
-  margin-top: 0;
+  display: inline-block;
+  margin: 0;
+  padding-top: 3px;
 }
 
 .card3 {
-  width: 310px;
+  width: 296px;
   height: 336px;
   border-radius: 4px;
   background-color: #fff;
+  padding: 12px;
 }
 
 .card4 {
   width: 290px;
   height: 110px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 4px;
   background-color: #fff;
 }
@@ -116,7 +117,6 @@ main {
 .nws-img-container {
   border: 1px solid #e8e8e8;
   margin: 10px;
-  padding: 15px 2px;
 }
 
 .nwl-txt {
@@ -216,9 +216,14 @@ main {
 .cat {
   width: 85px;
   height: 60px;
-  overflow: hidden;
 }
 
 .the-future-parent {
-  margin: 14px 6px;
+  padding: 15px;
+}
+
+.floating-chat {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
